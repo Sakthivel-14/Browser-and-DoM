@@ -1,0 +1,22 @@
+BROWSER and DOM
+
+URL (UNIFORM RESOURCE LOCATOR)
+
+An URL consiists of several parts :
+
+🎯Scheme or protocol -eg.http/https...
+🎯Server or Domain name -eg.Wikipedia.en...
+🎯Port (Default:80)
+🎯Path to the source provided in link
+🎯Query String(Optional)
+🎯Fragment Id (Optional)
+
+Format:
+Scheme://domain:port/path?query_string#fragement_id
+
+example:
+https://www.cloudflare.com/en-in/learning/dns/glossary/account
+
+How does URL works?
+
+The url will perform GET URL to the DOMAIN NAME and it request the resource which is given in the url then the resource is return back to the client browser
