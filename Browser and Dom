@@ -1,15 +1,15 @@
-BROWSER and DOM
+🔍BROWSER and 📃DOM
 
-URL (UNIFORM RESOURCE LOCATOR)
+🎗️URL (UNIFORM RESOURCE LOCATOR).
 
-An URL consiists of several parts :
+✅ An URL consiists of several parts :
 
-🎯Scheme or protocol -eg.http/https...
-🎯Server or Domain name -eg.Wikipedia.en...
-🎯Port (Default:80)
-🎯Path to the source provided in link
-🎯Query String(Optional)
-🎯Fragment Id (Optional)
+i)Scheme or protocol -eg.http/https...
+ii)Server or Domain name -eg.Wikipedia.en...
+iii)Port (Default:80)
+iv)Path to the source provided in link
+v)Query String(Optional)
+vi)Fragment Id (Optional)
 
 Format:
 Scheme://domain:port/path?query_string#fragement_id
@@ -17,6 +17,59 @@ Scheme://domain:port/path?query_string#fragement_id
 example:
 https://www.cloudflare.com/en-in/learning/dns/glossary/account
 
-How does URL works?
+✅ How does URL works?
 
-The url will perform GET URL to the DOMAIN NAME and it request the resource which is given in the url then the resource is return back to the client browser
+The url will perform GET URL to the DOMAIN NAME 
+and it request the resource which is given in the url 
+then the resource is return back to the client browser and
+the resource is displayed.
+
+The html or the web page (contains Content,Structure,Urls) have content,appearance,behaviour.
+Media-->content.
+Appearence-->Style Sheet (CSS).
+Behaviour-->JavaScript.
+
+The webpage will PUBLISH in document object model (DOM).
+
+🎗️ Document Object Model.
+
+✅ Represents the content of XML or HTML document as tree Structure.
+✅ Model used to read,access,update the contents of the document.
+✅ Is a programming interface (API) for HTML aand XML documents
+
+🎗️Markup Text:
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Page Title</title>
+<body>
+   <h1>This is a Heading</h1>
+   <p>This is a paragraph.</p>
+   <p>This is another paragraph.</p>
+</body>
+</html>
+
+🎗️Documentation Object Model  Representation
+
+|-DOCTYPE: html
+|-HTML lang="en"
+ |--HEAD
+ | |----META charset="utf-8"
+ | |----#text:
+ | |----TITLE
+ | |------#text: Page Title
+ | |----#text:
+ |-BODY
+   |--#text:
+   |--H1
+   | |----#text: This is a Heading
+   |--#text:
+   |--P
+   | |----#text: This is a paragraph.
+   |--#text:
+   |--P
+   | |----#text: This is another paragraph.
+   |--#text:
+   
+----------------------------------------------------------------------------------------------------------------------------------------------------------
